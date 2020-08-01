@@ -80,7 +80,7 @@ def caesar_cipher(text, shift):
     return ciphered_text
 
 
-@app.route("/name/<country_name>", methods=['GET'])
+@app.route("/name/<country_name>")
 def get_borders_of_country(country_name):
     """Exposes a http [GET] method that finds the borders of a given country
 
@@ -104,10 +104,12 @@ def get_borders_of_country(country_name):
                 border_json_response = border_request.json()
                 borders.append(json_response_map(
                     "borders_object", border_json_response))
+
         response_data = {
             "name": country_name,
             "borders": borders
         }
+        status = OK_STATUS
 
     return make_response(jsonify(response_data), status)
 
