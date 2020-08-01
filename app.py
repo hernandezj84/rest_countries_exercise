@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Rest api server that returns information about the borders of a given country"""
 from flask import Flask, jsonify, make_response
 import requests
