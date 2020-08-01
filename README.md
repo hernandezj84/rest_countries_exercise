@@ -14,7 +14,7 @@ the Caesar cipher (a left rotation of 1 place). If it is not the normal code has
 
 1. Install python3 interpreter [`python3`](https://www.python.org/)
 2. It is recommended to create a virtual environment [`venv`](https://docs.python.org/3/library/venv.html)
-3. In linux environments use:
+3. Install dependencies:
     $ pip install -r requirements.txt
 
 **Usage**
