@@ -1,6 +1,6 @@
 # rest_countries_exercise
 
-Python/Flask project that return information about the borders of a given country.
+Python/Flask project that returns information about the borders of a given country.
 For a given country the following information about the borders have to be returned:
 - Full name of the given country
 - Full name of the bordering countries:
