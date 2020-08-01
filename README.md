@@ -31,4 +31,5 @@ The command above will run a http server in localhost
 Hit http://127.0.0.1:5000/name/United%20Arab%20Emirates with a web client, or a HTTP REST testing tool.
 
 **Test using unittest library**
+---
     $ python -m unittest test_app.py
